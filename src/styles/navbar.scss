@@ -78,7 +78,7 @@
     }
 }
 
-.mobile {
+.mobile_nav {
     display: none;
 }
 
@@ -99,10 +99,40 @@
     }
 }
 
+@media (max-width: 650px) {
+    .navbar {
+        ul {
+            li:nth-child(2), :nth-child(3), :nth-child(4), :nth-child(5) {
+                display: none;
+            }
+        }
+    }
 
-//ARRUMAR NAVBAR []
-// @media (max-width: 650px) {
-//     .navbar {
-      
-//     }
-// }
+    .mobile_nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100vw;
+
+        font-weight: 600;
+        font-size: 0.5rem;
+        line-height: 0.625rem;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        
+        ul {
+        display: flex;
+        flex-direction: row;     
+        gap: 2.5rem;       
+        }
+        
+        li {
+            list-style: none;
+            padding: 6px 10px;
+            color: var(--light);
+            background: rgba(103, 103, 103, 0.39);
+            border-radius: 50px;
+        }
+    }
+}
