@@ -24,6 +24,9 @@ export function Navbar() {
                 <li>Unbox</li>
             </ul>
         </div>
+        <div className='mobile_button'>
+            <button type='button'>Ver Disponibilidade</button>
+        </div>
         </>
     );
 }
