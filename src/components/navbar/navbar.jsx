@@ -1,10 +1,10 @@
-import '../styles/navbar.css'
-import logo from '../assets/img/logo-xbox.svg'
+import styles from './styles.module.scss';
+import logo from '../../assets/img/logo-xbox.svg'
 
 export function Navbar() {
     return (
         <>
-        <div className="navbar">
+        <div className={styles.navbar}>
             <ul>
                 <li className="logo"><img src={logo} alt="Xbox logo" /></li>
                 <li className="hover">Visão Geral</li>
@@ -16,7 +16,7 @@ export function Navbar() {
             </ul>
         </div>
 
-        <div className='mobile_nav'>
+        <div className={styles.mobile_nav}>
             <ul>
                 <li>Visão Geral</li>
                 <li>Jogos</li>
@@ -24,7 +24,7 @@ export function Navbar() {
                 <li>Unbox</li>
             </ul>
         </div>
-        <div className='mobile_button'>
+        <div className={styles.mobile_button}>
             <button type='button'>Ver Disponibilidade</button>
         </div>
         </>

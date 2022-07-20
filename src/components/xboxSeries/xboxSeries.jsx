@@ -1,9 +1,9 @@
-import '../styles/xboxSeries.css';
-import xbox from '../assets/img/xbox.png';
+import styles from './xboxSeries.scss';
+import xbox from '../../assets/img/xbox.png';
 
 export function Xbox() {
     return(
-        <section>
+        <section className={styles.section}>
             <h1>Xbox series X</h1>
             <h2>Pedido Antecipado</h2>
             <img src={xbox} alt="" />

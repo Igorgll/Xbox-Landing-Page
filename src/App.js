@@ -1,7 +1,8 @@
-import './styles/Global.css';
-import { Navbar } from './components/navbar';
-import { Xbox } from './components/xboxSeries';
-import { Controller } from './components/controller';
+import './styles/Global.scss';
+import { Navbar } from './components/navbar/navbar';
+import { Xbox } from './components/xboxSeries/xboxSeries';
+import { Controller } from './components/controller/controller';
+import { Games } from './components/games/games';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </header>
       <Xbox />
       <Controller />
+      <Games />
     </div>
   );
 }
