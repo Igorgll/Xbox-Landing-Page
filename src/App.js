@@ -1,6 +1,7 @@
 import './styles/Global.css';
 import { Navbar } from './components/navbar';
 import { Xbox } from './components/xboxSeries';
+import { Controller } from './components/controller';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Navbar />
       </header>
       <Xbox />
+      <Controller />
     </div>
   );
 }

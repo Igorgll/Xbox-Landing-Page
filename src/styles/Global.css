@@ -8,7 +8,7 @@
 body {
   font-family: "Inter", sans-serif;
   background: var(--dark);
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 :root {
@@ -27,16 +27,16 @@ body {
 *::-webkit-scrollbar-track {
   width: 12px;
   box-shadow: inset 0 0 0.3rem #000000;
-  background-color: #1D1C1A;
+  background-color: var(--dark);
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #08D665;
+  background-color: var(--primary);
   border-radius: 15px;
 }
 
 :root {
-  scrollbar-color: #08D665 #000000 !important;
+  scrollbar-color: var(--primary) var(--dark) !important;
   scrollbar-width: thin !important;
 }
 
