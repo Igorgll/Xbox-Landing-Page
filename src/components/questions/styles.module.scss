@@ -113,10 +113,19 @@
       }   
 }
 
+@media (max-width: 1080px) {
+  .container {
+    padding: 300px 200px 112px;
+  }
+}
+
 @media(max-width: 768px) {
+  .container {
+    padding: 300px 100px 112px;
+  }
 
     strong {
-      font-size: 1.25rem;
+      font-size: 1rem !important;
       line-height: 2rem;
     }
   
@@ -126,4 +135,9 @@
     }
   }
 
+  @media (max-width: 425px) {
+    .container {
+      padding: 300px 20px 112px;
+    }
+  }
   

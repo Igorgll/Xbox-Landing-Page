@@ -1,0 +1,44 @@
+.footer {
+    padding: 60px 290px;
+    width: 100vw;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        color: var(--gray);
+    
+        &::after {
+            margin-left: 3rem;
+            content: 'Todos os direitos reservados';
+        }
+    }
+}
+
+@media (max-width: 1080px) {
+    .footer {
+        padding: 60px 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 60px 100px;
+    }
+}
+
+@media (max-width: 650px) {
+     p {
+        margin: 0;
+        text-align: end;
+     }
+}
+
+@media (max-width: 425px) {
+    .footer {
+        padding: 60px 20px;
+    }
+}

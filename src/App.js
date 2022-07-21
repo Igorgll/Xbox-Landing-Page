@@ -4,6 +4,7 @@ import { Xbox } from './components/xboxSeries/xboxSeries';
 import { Controller } from './components/controller/controller';
 import { Games } from './components/games/games';
 import { Questions } from './components/questions/questions';
+import { Footer } from './components/footer/footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Controller />
       <Games />
       <Questions />
+      <Footer />
     </div>
   );
 }
