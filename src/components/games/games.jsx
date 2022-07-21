@@ -8,10 +8,10 @@ export function Games() {
 
     return (
             <ul className={styles.games}>
-                <li><img src={farcry} alt="Farcry Image" /></li>
-                <li><img src={forza} alt="Forza Image" /></li>
-                <li><img src={fifa} alt="FIFA Image" /></li>
-                <li><img src={minecraft} alt="Minecraft Image" /></li>
+                <li><img src={farcry} alt="Farcry" /></li>
+                <li><img src={forza} alt="Forza" /></li>
+                <li><img src={fifa} alt="FIFA" /></li>
+                <li><img src={minecraft} alt="Minecraft" /></li>
             </ul>
     );
 }
